@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title> Suuap Profile </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href="css/custom.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar sp-navbar main_layout navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="navbar-brand">
+          	<a class="" href="home.html">
+          	<img src="img/logo_main.png" alt="Logo" height="40"/>
+          </a>
+          </div>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+           
+           <li>
+           	<div class="sp-profile_header">
+           		<a href="profile.html">
+           			<img src="img/placeholder.png" alt="Placeholder"/>
+           			<span> Mark </span>
+           		</a>
+           	</div>
+           </li>
+           
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-comment"></i> <span class="visible-xs-inline-block">Messages</span> </a>
+              <div class="dropdown-menu">
+				<div class="sp-dropdown_messages--block">
+					<h4> Messages
+					<a href="#"> <i class="fa fa-plus"></i> </a>
+					</h4>
+					<div class="sp-message_dropdown--list clearfix">
+						<div class="sp-message_attachment">
+							<img src="img/1.jpg" alt="Image"/>
+						</div>
+						
+						<img src="img/placeholder.png" alt="User Placeholder"/>
+						<div class="sp-message_dropdown--info">
+							<span> Name </span>
+							<p> message here </p>
+						</div>
+					</div>
+					<div class="sp-message_dropdown--list clearfix">
+						<div class="sp-message_attachment">
+							<img src="img/1.jpg" alt="Image"/>
+						</div>
+						
+						<img src="img/placeholder.png" alt="User Placeholder"/>
+						<div class="sp-message_dropdown--info">
+							<span> Name </span>
+							<p> message here </p>
+						</div>
+					</div>
+					<div class="sp-message_dropdown--list clearfix">
+						<div class="sp-message_attachment">
+							<img src="img/1.jpg" alt="Image"/>
+						</div>
+						
+						<img src="img/placeholder.png" alt="User Placeholder"/>
+						<div class="sp-message_dropdown--info">
+							<span> Name </span>
+							<p> message here </p>
+						</div>
+					</div>
+				</div>	  
+           	  </div>
+            </li>
+           
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-bell"></i> <span class="visible-xs-inline-block">Notifications</span> </a>
+              <div class="dropdown-menu">
+				<div class="sp-dropdown_messages--block">
+					<h4> August 9 </h4>
+					<div class="sp-message_dropdown--list clearfix">
+						<img src="img/placeholder.png" alt="User Placeholder"/>
+						<div class="sp-message_dropdown--info">
+							<span> Notification Text </span>
+							<p> 10/30/2018 </p>
+						</div>
+					</div>
+				</div>	  
+           	  </div>
+            </li>
+           
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-ellipsis-h"></i> <span class="visible-xs-inline-block"> More </span> </a>
+              <ul class="dropdown-menu">
+                <li><a href="#"> <i class="fa fa-pencil"></i> Edit settings </a></li>
+                <li><a href="#"> <i class="fa fa-question-circle"></i> Get help </a></li>
+                <li><a href="#"> <i class="fa fa-file-text"></i> Terms and privacy </a></li>
+                <li><a href="#"> <i class="fa fa-sign-out"></i> Log out </a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form sp-navbar_form navbar-right">
+            <input type="text" class="form-control" placeholder="Search...">
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="sp-main_wrapper">
+    	<div class="container">
+    		<div class="sp-box">
+    			<div class="sp-user_profile clearfix">
+    				<img src="img/placeholder.png" alt="User Dp" />
+    				<h4> Mark Arkam </h4>
+    				
+    				 <!-- Nav tabs -->
+  <ul class="sp-profile_nav" role="tablist">
+    <li role="presentation" class="active"><a href="#sell" aria-controls="sell" role="tab" data-toggle="tab">Sell</a></li>
+    <li role="presentation"><a href="#buy" aria-controls="buy" role="tab" data-toggle="tab">Buy</a></li>
+    <li role="presentation"><a href="#sold" aria-controls="sold" role="tab" data-toggle="tab">Sold</a></li>
+    <li role="presentation"><a href="#rating" aria-controls="rating" role="tab" data-toggle="tab">Rating</a></li>
+  </ul>
+    			</div>
+    			
+    			<div class="sp-profile_tabs">
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="sell">
+		<div class="sp-tab_sell--block">
+			<div class="sp-dropFile">
+  				<input type="file">
+  				<p> <i class="fa fa-plus-circle"> </i></p>
+  				<button type="submit" class="btn btn-primary block" data-toggle="modal" data-target="#modalUnderSell"> Sell an Item </button>
+			</div>
+			<hr/>
+			<div class="sp-product_list">
+    			<div class="row">
+    				<div class="col-md-2 col-sm-3">
+    					<div class="sp-product_item">
+    						<img src="img/1.jpg" alt="" class="img-responsive"/>
+    					</div>
+    				</div>
+    				<div class="col-md-2 col-sm-3">
+    					<div class="sp-product_item">
+    						<img src="img/1.jpg" alt="" class="img-responsive"/>
+    						
+    					</div>
+    				</div>
+    				<div class="col-md-2 col-sm-3">
+    					<div class="sp-product_item">
+    						<img src="img/1.jpg" alt="" class="img-responsive"/>
+    						
+    					</div>
+    				</div>
+    				<div class="col-md-2 col-sm-3">
+    					<div class="sp-product_item">
+    						<img src="img/1.jpg" alt="" class="img-responsive"/>
+    						
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+		</div>	
+   	</div>
+    <div role="tabpanel" class="tab-pane" id="buy">
+		  <div class="sp-product_list">
+    			<div class="row">
+    				<div class="col-md-2 col-sm-3">
+    					<div class="sp-product_item">
+    						<img src="img/1.jpg" alt="" class="img-responsive"/>
+    						
+    					</div>
+    				</div>
+    				<div class="col-md-2 col-sm-3">
+    					<div class="sp-product_item">
+    						<img src="img/1.jpg" alt="" class="img-responsive"/>
+    						
+    					</div>
+    				</div>
+    				<div class="col-md-2 col-sm-3">
+    					<div class="sp-product_item">
+    						<img src="img/1.jpg" alt="" class="img-responsive"/>
+    						
+    					</div>
+    				</div>
+    				<div class="col-md-2 col-sm-3">
+    					<div class="sp-product_item">
+    						<img src="img/1.jpg" alt="" class="img-responsive"/>
+    						
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+	</div>
+    <div role="tabpanel" class="tab-pane" id="sold">
+		<div class="sp-product_list">
+    			<div class="row">
+    				<div class="col-md-2 col-sm-3">
+    					<div class="sp-product_item">
+    						<img src="img/1.jpg" alt="" class="img-responsive"/>
+    						<button class="btn btn-primary block"> Sold </button>
+    					</div>
+    				</div>
+    				<div class="col-md-2 col-sm-3">
+    					<div class="sp-product_item">
+    						<img src="img/1.jpg" alt="" class="img-responsive"/>
+    						<button class="btn btn-primary block"> Sold </button>
+    					</div>
+    				</div>
+    				<div class="col-md-2 col-sm-3">
+    					<div class="sp-product_item">
+    						<img src="img/1.jpg" alt="" class="img-responsive"/>
+    						<button class="btn btn-primary block"> Sold </button>
+    					</div>
+    				</div>
+    				<div class="col-md-2 col-sm-3">
+    					<div class="sp-product_item">
+    						<img src="img/1.jpg" alt="" class="img-responsive"/>
+    						<button class="btn btn-primary block"> Sold </button>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+   </div>
+    <div role="tabpanel" class="tab-pane" id="rating">
+    	<div class="sp-rating_block">
+    		<h4> Buyer rating 4.9/5 <sub> (11 user Rated) </sub> </h4>
+    		
+    		<div class="row">
+    			<div class="col-md-5">
+    				<div class="sp-recent_review seller clearfix">
+    					<img src="img/placeholder.png" alt="Review"/>
+    					<span>
+    						<strong> Buyer Name </strong>
+    						<star>
+    							<i class="fa fa-star"></i>
+    							<i class="fa fa-star"></i>
+    							<i class="fa fa-star"></i>
+    							<i class="fa fa-star"></i>
+    							<i class="fa fa-star"></i>
+    						</star>
+    						<p> SUUAP is th eeasiest place for Trojans to exchange text books and items among peers. </p>
+    					</span>
+    				</div>	
+    			</div>
+    			<div class="col-md-5 col-md-offset-1">
+    				<div class="sp-recent_review seller clearfix">
+    					<img src="img/placeholder.png" alt="Review"/>
+    					<span>
+    						<strong> Buyer Name </strong>
+    						<star>
+    							<i class="fa fa-star"></i>
+    							<i class="fa fa-star"></i>
+    							<i class="fa fa-star"></i>
+    							<i class="fa fa-star"></i>
+    							<i class="fa fa-star-half-full"></i>
+    						</star>
+    						<p> SUUAP is th eeasiest place for Trojans to exchange text books and items among peers. </p>
+    					</span>
+    				</div>	
+    			</div>
+    		</div>
+    		
+    		<h4> Seller rating 5/5 <sub> (7 user Rated) </sub> </h4>
+    		
+    		<div class="row">
+    			<div class="col-md-5">
+    				<div class="sp-recent_review seller clearfix">
+    					<img src="img/placeholder.png" alt="Review"/>
+    					<span>
+    						<strong> Buyer Name </strong>
+    						<star>
+    							<i class="fa fa-star"></i>
+    							<i class="fa fa-star"></i>
+    							<i class="fa fa-star"></i>
+    							<i class="fa fa-star"></i>
+    							<i class="fa fa-star"></i>
+    						</star>
+    						<p> SUUAP is th eeasiest place for Trojans to exchange text books and items among peers. </p>
+    					</span>
+    				</div>	
+    			</div>
+    			<div class="col-md-5 col-md-offset-1">
+    				<div class="sp-recent_review seller clearfix">
+    					<img src="img/placeholder.png" alt="Review"/>
+    					<span>
+    						<strong> Buyer Name </strong>
+    						<star>
+    							<i class="fa fa-star"></i>
+    							<i class="fa fa-star"></i>
+    							<i class="fa fa-star"></i>
+    							<i class="fa fa-star"></i>
+    							<i class="fa fa-star"></i>
+    						</star>
+    						<p> SUUAP is th eeasiest place for Trojans to exchange text books and items among peers. </p>
+    					</span>
+    				</div>	
+    			</div>
+    		</div>
+    		
+    	</div>
+    </div>
+  </div>
+
+</div>
+    			
+    		</div>
+    	</div>
+    </div>
+    
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+		$(document).ready(function(){
+  $('.sp-dropFile input').change(function () {
+    $('.sp-dropFile p').text(this.files.length + " file selected");
+  });
+});
+	</script>
+  </body>
+</html>
