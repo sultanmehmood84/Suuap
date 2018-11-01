@@ -250,6 +250,39 @@ ul
   height: 100%;
   outline: none;
   opacity: 0;
+  cursor:pointer;
+}
+/*Full Wide*/
+.sp-dropFile.full-width
+{
+	width:100%;
+	height:450px;
+}
+.sp-dropFile.full-width p span
+{
+	display:block;
+	font-size:24px;
+	color:rgba(0,0,0,0.54);
+}
+.sp-dropFile.full-width p
+{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	    flex-direction: column;
+		    color: rgba(0,0,0,0.54);
+}
+.sp-dropFile.full-width p,
+.sp-dropFile.full-width p i
+{
+	line-height:normal;
+	    color: rgba(0, 0, 0, .54);
+}
+.sp-item_image img
+{
+	object-fit:cover;
+	width:100%;
+	height:100%;
 }
 /*Buyer Rating*/
 .sp-rating_block
@@ -524,8 +557,67 @@ h3.sp-main_title
 	height: 50px;
 	object-fit: cover;
 }
-
-
+/*Item*/
+.sp-item_information name,
+.sp-item_information price,
+.sp-item_information condition,
+.sp-item_information p
+{
+	display:block;
+	color:rgba(0,0,0,0.54);
+	font-size:16px;
+	font-weight:500;
+}
+.sp-item_information name
+{
+	margin-bottom:20px;
+}
+.sp-item_information price
+{
+	margin-bottom:20px;	
+	color:#147f3f;
+	font-size:20px;
+}
+.sp-item_information condition
+{
+	margin-bottom:20px;
+}
+.sp-item_information p
+{
+	font-size:14px;
+	font-weight:normal;
+	color:rgba(0,0,0,0.87);
+	line-height:16pt;
+}
+.sp-recent_review rating
+{
+	margin-bottom: 10px;
+	display: block;
+}
+.sm-user_list
+{
+    height: 150px;
+    border: solid 1px #cccccc;
+    border-radius: 5px;
+    background: #f1f1f1;
+	overflow-y:auto;
+	margin-bottom:25px;
+}
+.sm-user_list>.sp-recent_review
+{
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+	border:none;
+	transition: all .3s linear;
+}
+.sm-user_list>.sp-recent_review:hover,
+.sm-user_list>.sp-recent_review.active
+{
+	text-decoration:none;
+	background:#ffffff;
+	box-shadow:0 0 5px rgba(0,0,0,0.15);
+}
 
 
 
