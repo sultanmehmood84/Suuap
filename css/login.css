@@ -7,7 +7,12 @@ body
 	font-family: 'Roboto', sans-serif;
 	position: relative;
 }
-
+.absolute_top-right
+{
+	position: absolute;
+    top: -20px;
+    right: 30px;
+}
 
 
 
@@ -106,7 +111,7 @@ display: block;
 	}
 	.sp-global_footer ul li
 	{
-		width: 33%;
+		width: auto;
     	margin-bottom: 15px;
 	}
 }
