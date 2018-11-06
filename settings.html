@@ -180,6 +180,18 @@
    						<input type="text" placeholder="Arkm" class="form-control">
    					</div>
    						</div>
+                        <div class="col-md-6">
+   							<div class="form-group">
+   						<label class="control-label"> Picture </label>
+   						<div class="form-profile_picture"> 
+                        	<img src="img/placeholder.png" alt="Image Placeholder" />
+                            <div class="sp-dropFile button">
+  								<input type="file">
+  								<p> Change Picture </p>
+							</div>
+                        </div>
+   					</div>
+   						</div>
    					</div>
    					
    					<hr/>
@@ -191,6 +203,7 @@
    						<div class="pull-right">
    							<a href="#" class="btn btn-sm btn-primary"> On </a>
    							<a href="#" class="btn btn-sm btn-default"> Off </a>
+                            <a href="#" class="btn btn-sm btn-danger"> Off </a>
    						</div>
    					</div>
    					
@@ -236,5 +249,12 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+		$(document).ready(function(){
+  $('.sp-dropFile input').change(function () {
+    $('.sp-dropFile p').text(this.files.length + " file selected");
+  });
+});
+	</script>
   </body>
 </html>

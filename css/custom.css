@@ -272,6 +272,22 @@ ul
   opacity: 0;
   cursor:pointer;
 }
+.sp-dropFile.button
+{
+	display: block;
+    overflow: hidden;
+    width: 130px;
+    height: 40px;
+	margin:0;
+}
+.sp-dropFile.button p
+{
+	font-weight:500;
+	font-size:14px;
+	color:rgba(0,0,0,0.87);
+		line-height:40px;
+		margin:0;
+}
 /*Full Wide*/
 .sp-dropFile.full-width
 {
@@ -475,6 +491,21 @@ h3.sp-main_title
     color: rgba(0,0,0,0.87);
     font-weight: bold;
 }
+.control-label sup
+{
+	color:red;
+}
+.form-profile_picture img
+{
+	width:48px;
+	height:48px;
+	object-fit:cover;
+	border-radius:50%;
+	box-shadow:1px 1px 1px rgba(0,0,0,0.15);
+	float:left;
+	margin-right:10px;
+}
+
 .sp-navbar_form
 {
     position: relative;
@@ -643,6 +674,131 @@ h3.sp-main_title
     background-color: #ffffff;
     border-color: #147f3f;
 }
+
+
+/* ---------- LIVE-CHAT ---------- */
+
+#live-chat {
+	bottom: 0;
+	font-size: 12px;
+	right: 24px;
+	position: fixed;
+	width: 300px;
+}
+
+#live-chat header {
+	background: #147f3f;
+	border-radius: 5px 5px 0 0;
+	color: #fff;
+	cursor: pointer;
+	padding: 16px 24px;
+}
+#live-chat h4 {
+    font-size: 14px;
+    color: #fff;
+	    margin: 0;
+}
+
+#live-chat h5 {
+	font-size: 12px;
+}
+
+#live-chat form {
+	padding: 24px;
+}
+
+#live-chat input[type="text"] {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 8px;
+	outline: none;
+	width: 234px;
+}
+
+.chat-message-counter {
+	background: #e62727;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	display: none;
+	font-size: 12px;
+	font-weight: bold;
+	height: 28px;
+	left: 0;
+	line-height: 28px;
+	margin: -15px 0 0 -15px;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 28px;
+	color:#ffffff;
+}
+
+.chat-close {
+	background: #ffffff;
+	border-radius: 50%;
+	color: #147f3f;
+	display: block;
+	float: right;
+	font-size: 10px;
+	height: 16px;
+	line-height: 16px;
+	margin: 2px 0 0 0;
+	text-align: center;
+	width: 16px;
+}
+
+.chat {
+	background: #fff;
+}
+
+.chat-history {
+	height: 252px;
+	padding: 8px 24px;
+	overflow-y: scroll;
+}
+
+.chat-message {
+	margin: 16px 0;
+}
+
+.chat-message img {
+	border-radius: 50%;
+	float: left;
+}
+
+.chat-message-content {
+	margin-left: 56px;
+}
+.chat-message.rtl img
+{
+	float: right;
+}
+.chat-message.rtl .chat-message-content
+{
+	margin-left: 0;
+	margin-right: 56px;
+}
+
+
+
+.chat-time {
+	float: right;
+	font-size: 10px;
+}
+
+.chat-feedback {
+	font-style: italic;	
+	margin: 0 0 0 80px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
