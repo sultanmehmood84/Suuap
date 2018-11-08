@@ -157,7 +157,7 @@
 			<div class="sp-product_list">
     			<div class="row">
     				<div class="col-lg-3 col-sm-4">
-    					<div class="sp-product_item">
+    					<div class="sp-product_item" data-target="#rateSeller" data-toggle="modal">
     						<img src="img/1.jpg" alt="" class="img-responsive"/>
     						<span class="sp-product_title"> Item Name </span>
     					</div>
@@ -355,6 +355,30 @@
     		</ul>
     	</div>
     </footer>
+    
+    
+    
+<!-- Modal -->
+<div class="modal fade" id="rateSeller" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+      <h5> Please rate the seller for your most recent purchase on [name of item] <sup>*</sup> </h5>
+        <br>
+        <h4>  <input type="text" class="form-control" maxlength="1" style="display:inline-block; width:50px;"/> / 5 </h4>
+        <textarea class="form-control" rows="6" placeholder="Additional Comments"></textarea>
+        
+        
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

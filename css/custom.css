@@ -6,7 +6,39 @@ html, body
 	font-family: 'Roboto', sans-serif;
 	position: relative;
 }
-
+.relative
+{
+	position: relative;
+}
+.p-t-5
+{
+	padding-top:50px !important;
+}
+.absolute_top-right
+{
+	position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.sp-box_back--button
+{
+	position: absolute;
+    left: -10px;
+    top: -30px;	
+}
+div[data-target]
+{
+	cursor: pointer;
+}
+/*Flex Helper*/
+.flex
+{
+	display: flex;
+}
+.justify-space-between
+{
+	justify-content: space-between;
+}
 /*Helper Classes*/
 h1,h2,h3,h4,h5,h6
 {
@@ -54,8 +86,16 @@ ul
     background-color: #dcdcdc;
     border-color: #dcdcdc;
 }
-
-
+.btn-link {
+    font-weight: 400;
+    color: #147f3f;
+    border-radius: 0;
+}
+.btn-link:focus, .btn-link:hover {
+    color: #126b36;
+    text-decoration: underline;
+    background-color: transparent;
+}
 
 
 /*Global Footer*/
