@@ -18,7 +18,12 @@ html, body
 {
 	position: absolute;
     top: 15px;
-    right: 15px;
+    right: 30px;
+}
+.absolute_top-right .btn
+{
+	width:120px;
+	font-weight: 500;	
 }
 .sp-box_back--button
 {
@@ -286,7 +291,7 @@ ul
 /*Custom File Upload*/
 .sp-dropFile{
   width: 175px;
-  height: 100px;
+  height: 140px;
   background: #f5f5f5;
 	position: relative;
 	    margin-bottom: 75px;
